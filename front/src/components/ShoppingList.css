@@ -1,0 +1,256 @@
+
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* כותרות ראשיות */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    margin-top: 0;
+  }
+  
+  /* קישורים */
+  a {
+    color: #1E90FF;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  a:hover {
+    color: #FF4500;
+  }
+ 
+  
+  /* תיבת חיפוש */
+  .search-bar {
+    width: 100%;
+    padding: 19px ;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #1E90FF;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: #fff;
+    margin-top: 9cm;
+    overflow: auto;
+    max-height: 100px; 
+  }
+  .search-container {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+
+  /* רשימת מוצרים */
+  .product-list {
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+  }
+  
+ 
+  .product {
+    width: calc(50% - 8px);
+    margin-bottom: 24px;
+    padding: 16px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+
+  
+  .product-name {
+    font-weight: 700;
+    margin-bottom: 8px;
+  }
+  
+  .add-to-cart {
+    background-color: #1E90FF;
+    border: none;
+    color: #fff;
+    padding: 8px 16px;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #FF4500;
+  }
+  
+  /* רשימת הקניות */
+  .mylist {
+    margin-top: 24px;
+
+
+  }
+  
+  .list-title {
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  
+  .list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+  }
+  .Missing-item{
+    background-color: #000000;
+    border: none;
+    color: #ffffff;
+    padding: 5px ;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    margin-right: 10px;
+
+
+  }
+  .Missing-item:hover {
+    background-color: #ff1e1e;
+    color: #fff;
+  }
+  .remove-from-cart {
+    
+    background-color: #FF4500;
+    border: none;
+    color: #ffffff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    margin-right: 1%;
+    
+
+  }
+  
+  
+  
+  .remove-from-cart:hover {
+    background-color: #1E90FF;
+    color: #fff;
+  }
+ 
+  .shopping-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+  }
+ 
+  /* תפריט ניווט */
+  .back{
+  margin-top: 24px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #fff;
+  text-align: center;
+  padding: 10px 0;
+  box-shadow: 0 -1px 5px rgba(0, 0, 0, 0.2);
+    
+  }
+  
+  nav a {
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    color: #000;
+  }
+ 
+
+  
+  
+  .checked {
+    background-color: #000;
+    color: #fff;
+    font-size: 1px 1px;
+  }
+  
+  .check-mark {
+    font-size: 14px;
+  }
+  
+  .product-details {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+   
+  }
+  
+  .product-name {
+    margin: 0;
+    flex-grow: 1;
+    text-decoration: none;
+  }
+  
+  
+  .line-through {
+    text-decoration: line-through;
+  }
+  
+  .product-quantity {  
+    color: #000000;
+  }
+
+  .shopping-list-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #eae7e791;
+    border-radius: 5px;
+  }
+ 
+  
+  .shopping-list-item > .product-mark {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .shopping-list-item > .product-details {
+    flex-grow: 1;
+  }
+  
+  .product-mark {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  
+  
+
+  

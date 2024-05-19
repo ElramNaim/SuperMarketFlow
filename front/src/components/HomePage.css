@@ -1,0 +1,119 @@
+/* .home-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    background-color: #f9f2f2;
+  }
+  
+  .home-page__title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .home-page__subtitle {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .home-page__choice {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .home-page__nav {
+    margin-bottom: 1rem;
+  }
+  
+  .home-page__link {
+    color: #333;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .home-page__link:hover {
+    color: #f0f4f7;
+  }
+  
+   */
+   /* .page {
+  
+    font-family: sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    height: 100vh;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  } */
+   .home-page {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 10px;
+    padding:20px 60px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    
+    
+  }
+  
+  .home-page__title {
+    margin-top: 2cm;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    
+  }
+  
+  .home-page__subtitle {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .home-page__choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .home-page__nav {
+    margin: 0 1rem;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .home-page__link {
+    color: #ffffff;
+    background-color: #000000;
+    font-size: 1.5rem;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    border: 2px solid #000000;
+    border-radius: 0.5rem;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .home-page__link:hover {
+    color: #000000;
+    background-color: #ffffff;
+  }
+
+  
